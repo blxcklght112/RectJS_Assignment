@@ -1,7 +1,5 @@
 import axios from "axios";
-import { Button } from "bootstrap";
 import React, { useState } from "react";
-import { Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import "./Login.css"
 
@@ -74,7 +72,7 @@ const LoginPage = ({message}) => {
     return (
         <div>
             {<h3>{message}</h3>}
-            <Form>
+            <form>
                 <input
                     type={"email"}
                     name="email"
@@ -108,7 +106,7 @@ const LoginPage = ({message}) => {
                     Submit
                 </div>
                 {showLoginSuccess && <div className="login-success">Login success</div>}
-            </Form>
+            </form>
         </div>
     );
 };
