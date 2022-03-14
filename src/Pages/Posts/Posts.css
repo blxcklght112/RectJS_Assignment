@@ -1,0 +1,27 @@
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  text-align: center;
+}
+
+button{
+    margin-left: 20px;
+}
+
+.error{
+  color: red;
+}
+.search--input{
+  margin: 20px;
+}

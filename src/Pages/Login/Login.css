@@ -1,0 +1,34 @@
+.form--input{
+    display: block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.input--error{
+    color: red;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 70px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition-duration: .4s;
+}
+
+.btn--submit{
+    border: 1px solid #3477eb;
+    background-color: #3477eb;
+    color: #fff;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #2159bb;
+}
